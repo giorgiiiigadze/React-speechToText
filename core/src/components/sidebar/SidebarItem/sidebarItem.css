@@ -1,0 +1,100 @@
+.sidebar-item{
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+  background-color: transparent;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-inline: 8px;
+  border-radius: 6px;
+  height: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  
+  gap: 8px;
+
+  transition: background-color 0.2s ease;
+  
+  color: var(--icon-secondary);
+
+  overflow: hidden;
+}
+
+.sidebar-item-title {
+  flex: 1;
+  min-width: 0;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.sidebar-item svg {
+  stroke: var(--icon-secondary);
+}
+
+.sidebar-item:hover{
+  background-color: var(--hover-overlay);
+}
+
+.sidebar-item-icon{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-item-icon svg {
+  width: 16px;
+  height: 16px;
+}
+
+.sidebar-item-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+}
+
+.pill{
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+  text-transform: capitalize;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.sidebar-item-hovered-element{
+  margin-left: auto;
+  display: none;
+  align-items: center;
+  opacity: 0;
+  align-items: center;
+  gap: 6px;
+}
+
+.sidebar-item-hovered-element svg {
+  width: 14px;
+  height: 14px;
+}
+
+.sidebar-item:hover .sidebar-item-hovered-element{
+  opacity: 1;
+  display: flex;
+}

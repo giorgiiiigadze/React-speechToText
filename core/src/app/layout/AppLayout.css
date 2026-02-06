@@ -1,0 +1,21 @@
+.app-layout {
+    display: flex;
+    flex-direction: row;
+}
+
+.app-layout.sidebar-open .sidebar {
+  width: 260px;
+}
+
+.app-main {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+
+.app-content{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}

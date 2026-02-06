@@ -1,0 +1,185 @@
+:root {
+  /* ---------- Brand ---------- */
+  --brand-primary: #ffffff;
+  --brand-accent: #2383e2;
+
+  /* ---------- Backgrounds ---------- */
+  --bg-page: #191919;
+  --bg-app: #1f1f1f;
+  --bg-sidebar: #202020;
+  --bg-surface-1: #252525;
+  --bg-surface-2: #2a2a2a;
+  --bg-surface-3: #2f2f2f;
+  --bg-hover: #2c2c2c;
+  --bg-active: #333333;
+  --bg-selected: #373737;
+  --bg-overlay: rgba(0, 0, 0, 0.6);
+
+  /* ---------- Text ---------- */
+  --text-primary: #e6e6e6;
+  --text-secondary: #9b9b9b;
+  --text-tertiary: #8f8f8f;
+  --text-muted: #6f6f6f;
+  --text-disabled: #555555;
+  --text-inverse: #0f0f0f;
+
+  /* ---------- Borders ---------- */
+  --border-default: #2f2f2f;
+  --border-muted: #262626;
+  --border-strong: #3a3a3a;
+  --divider: #2b2b2b;
+
+  /* ---------- Icons ---------- */
+  --icon-primary: #d9d9d9;
+  --icon-secondary: #9b9b9b;
+  --icon-muted: #6b6b6b;
+
+  /* ---------- Effects ---------- */
+  --hover-overlay: #141413;
+  --active-overlay: rgba(255, 255, 255, 0.08);
+  --focus-ring: #2383e2;
+
+  /* ---------- Shadows ---------- */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.45);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.6);
+
+  /* ---------- Status ---------- */
+  --success-bg: #123d2b;
+  --success-text: #4dd4a8;
+  --warning-bg: #3d2c12;
+  --warning-text: #f4c266;
+  --error-bg: #3d1616;
+  --error-text: #ff6b6b;
+  --info-bg: #12293d;
+  --info-text: #6cb7ff;
+
+  /* ---------- Notion Tag Colors ---------- */
+  --tag-gray-bg: #2a2a2a;
+  --tag-gray-text: #cfcfcf;
+
+  --tag-brown-bg: #3a2a1f;
+  --tag-brown-text: #d2b49c;
+
+  --tag-orange-bg: #3d2a1a;
+  --tag-orange-text: #f2a365;
+
+  --tag-yellow-bg: #3d3a1a;
+  --tag-yellow-text: #f2e26b;
+
+  --tag-green-bg: #1f3a2a;
+  --tag-green-text: #6ddfa3;
+
+  --tag-blue-bg: #1a2f3d;
+  --tag-blue-text: #6cb7ff;
+
+  --tag-purple-bg: #2f1f3d;
+  --tag-purple-text: #c792ea;
+
+  --tag-pink-bg: #3d1f2f;
+  --tag-pink-text: #f29bc1;
+
+  --tag-red-bg: #3d1f1f;
+  --tag-red-text: #ff7a7a;
+
+  /* ---------- Buttons ---------- */
+  --btn-primary-bg: #2383e2;
+  --btn-primary-text: #ffffff;
+  --btn-primary-hover: #1c6fc1;
+
+  --btn-secondary-bg: #2a2a2a;
+  --btn-secondary-text: #e6e6e6;
+  --btn-secondary-hover: #333333;
+
+  /* ---------- Inputs ---------- */
+  --input-bg: #1f1f1f;
+  --input-border: #2f2f2f;
+  --input-border-focus: #2383e2;
+  --input-text: #e6e6e6;
+  --input-placeholder: #7a7a7a;
+
+  /* ---------- Code ---------- */
+  --code-bg: #1b1b1b;
+  --code-text: #e6e6e6;
+  --code-border: #2a2a2a;
+
+  /* ---------- Selection ---------- */
+  --selection-bg: rgba(35, 131, 226, 0.35);
+  --selection-text: #ffffff;
+
+  --skeleton-base: #292929;
+  --skeleton-highlight: #515151ff;
+}
+
+[data-theme="light"] {
+  /* ---------- Brand ---------- */
+  --brand-primary: #000000;
+  --brand-accent: #2383e2;
+
+  /* ---------- Backgrounds ---------- */
+  --bg-page: #f7f7f5;
+  --bg-app: #ffffff;
+  --bg-sidebar: #fbfbfa;
+  --bg-surface-1: #ffffff;
+  --bg-surface-2: #f2f2f0;
+  --bg-surface-3: #ebebea;
+  --bg-hover: #ededec;
+  --bg-active: #e6e6e4;
+  --bg-selected: #e1e1df;
+  --bg-overlay: rgba(0, 0, 0, 0.2);
+
+  /* ---------- Text ---------- */
+  --text-primary: #2f3437;
+  --text-secondary: #5f6368;
+  --text-tertiary: #8a8f94;
+  --text-muted: #9aa0a6;
+  --text-disabled: #c0c4c8;
+  --text-inverse: #ffffff;
+
+  /* ---------- Borders ---------- */
+  --border-default: #e1e1df;
+  --border-muted: #ececeb;
+  --border-strong: #d6d6d4;
+  --divider: #ededec;
+
+  /* ---------- Icons ---------- */
+  --icon-primary: #2f3437;
+  --icon-secondary: #5f6368;
+  --icon-muted: #9aa0a6;
+
+  /* ---------- Effects ---------- */
+  --hover-overlay: #141413;
+  --active-overlay: rgba(0, 0, 0, 0.08);
+  --focus-ring: #2383e2;
+
+  /* ---------- Shadows ---------- */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.16);
+
+  /* ---------- Buttons ---------- */
+  --btn-primary-bg: #2383e2;
+  --btn-primary-text: #ffffff;
+  --btn-primary-hover: #1c6fc1;
+
+  --btn-secondary-bg: #f2f2f0;
+  --btn-secondary-text: #2f3437;
+  --btn-secondary-hover: #e6e6e4;
+
+  /* ---------- Inputs ---------- */
+  --input-bg: #ffffff;
+  --input-border: #d6d6d4;
+  --input-border-focus: #2383e2;
+  --input-text: #2f3437;
+  --input-placeholder: #9aa0a6;
+
+  /* ---------- Selection ---------- */
+  --selection-bg: rgba(35, 131, 226, 0.25);
+  --selection-text: #ffffff;
+
+  --skeleton-base: #e0e0e0;
+  --skeleton-highlight: #f5f5f5;
+}
+
